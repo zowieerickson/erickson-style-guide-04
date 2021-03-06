@@ -1,0 +1,51 @@
+$font-stack-primary: "Lato", sans-serif;
+$light-font-weight: 300;
+$heavy-font-weight: 700;
+$big-font-size: 1.5em;
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  font-family: $font-stack-primary;
+  color: $primary-color;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+  color: $secondary-color;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: $light-font-weight;
+  color: $primary-color;
+}
+
+.link {
+  color: $default-color;
+  font-weight: $heavy-font-weight;
+}
+
+.blockquote {
+  font-size: $big-font-size;
+  font-weight: $light-font-weight;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $secondary-color;
+  border-radius: 5px;
+}

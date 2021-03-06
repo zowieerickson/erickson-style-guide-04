@@ -1,0 +1,10 @@
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin align-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
